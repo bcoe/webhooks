@@ -35,11 +35,11 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * @author kimchy (shay.banon)
  */
-public class WebhooksIndicesLifecycle extends AbstractComponent implements IndicesLifecycle {
+public class WebHooksIndicesLifecycle extends AbstractComponent implements IndicesLifecycle {
 
     private final CopyOnWriteArrayList<Listener> listeners = new CopyOnWriteArrayList<Listener>();
 
-    @Inject public WebhooksIndicesLifecycle(Settings settings) {
+    @Inject public WebHooksIndicesLifecycle(Settings settings) {
         super(settings);
     }
 

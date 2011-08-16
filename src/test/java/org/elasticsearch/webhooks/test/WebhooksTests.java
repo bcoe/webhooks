@@ -26,7 +26,7 @@ import org.testng.annotations.Test;
 /**
  * @author kimchy (shay.banon)
  */
-public class WebhooksTests {
+public class WebHooksTests {
 
     @BeforeMethod public void setup() {
 

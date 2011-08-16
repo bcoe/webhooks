@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: ElasticSearch
+Implementation-Version: 0.18.0-SNAPSHOT
+Implementation-Date: 2011-08-16T18:27:44
+

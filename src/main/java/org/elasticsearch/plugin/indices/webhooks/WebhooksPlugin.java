@@ -31,16 +31,16 @@ import static org.elasticsearch.common.collect.Lists.*;
 import org.elasticsearch.indices.IndicesModule;
 import org.elasticsearch.indices.IndicesLifecycle;
 
-import org.elasticsearch.webhooks.WebhooksIndicesLifecycle;
+import org.elasticsearch.webhooks.WebHooksIndicesLifecycle;
 
 /**
  * @author Benjamin Coe
  */
-public class WebhooksPlugin extends AbstractPlugin {
+public class WebHooksPlugin extends AbstractPlugin {
 
     private final Settings settings;
 
-    public WebhooksPlugin(Settings settings) {
+    public WebHooksPlugin(Settings settings) {
         this.settings = settings;
     }
 
@@ -54,7 +54,7 @@ public class WebhooksPlugin extends AbstractPlugin {
 
     @Override public void processModule(Module module) {
         if (module instanceof IndicesModule) {
-            module.bind(IndicesLifecycle.class).to(WebhooksIndicesLifecycle.class).asEagerSingleton();
+            
         }
     }
 }

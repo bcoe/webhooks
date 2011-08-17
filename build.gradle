@@ -4,7 +4,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'eclipse'
 
-archivesBaseName = "elasticsearch-indices-webhooks"
+archivesBaseName = "elasticsearch-webhooks"
 
 explodedDistDir = new File(distsDir, 'exploded')
 
@@ -108,7 +108,7 @@ uploadArchives {
 
         pom.project {
             inceptionYear '2009'
-            name 'elasticsearch-plugins-indices-webhooks'
+            name 'elasticsearch-plugins-webhooks'
             description 'JavaScript Plugin for ElasticSearch'
             licenses {
                 license {

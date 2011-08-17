@@ -1,2 +1,2 @@
-org.elasticsearch.plugin.indices.webhooks
+org.elasticsearch.plugin.webhooks
 org.elasticsearch.webhooks

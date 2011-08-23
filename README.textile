@@ -5,10 +5,10 @@ p. This plugin attaches WebHooks to various asynchronous HTTP operations.
 h2. Events
 
 *Event:* created
-*Description:* p. Fires when an index is opened or created. Returns the name of the index created.
+*Description:* Fires when an index is opened or created. Returns the name of the index created.
 
 *Event:* closed
-*Description:* p. Fires when an index is closed. Returns the name of the index closed.
+*Description:* Fires when an index is closed. Returns the name of the index closed.
 
 h2. Configuration
 

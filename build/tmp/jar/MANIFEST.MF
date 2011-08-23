@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
 Implementation-Title: ElasticSearch
 Implementation-Version: 0.17.5
-Implementation-Date: 2011-08-17T00:12:18
+Implementation-Date: 2011-08-19T15:05:39
 

@@ -9,12 +9,14 @@ import org.elasticsearch.indices.IndicesLifecycle;
 
 public class WebHooksPluginService extends AbstractLifecycleComponent<WebHooksPluginService>
 {   
+    private IndicesLifecycle indicesLifecycle;
+    private Settings settings;
+    
     @Inject
     public WebHooksPluginService(Settings settings, IndicesLifecycle indicesLifecycle) {
         super(settings);
-        indicesLifecycle.addListener(
-            new WebHooksIndicesLifecycleListener(this.logger)
-        );
+        this.indicesLifecycle = indicesLifecycle;
+        this.settings = settings;
     }
     
     @Override
@@ -23,6 +25,9 @@ public class WebHooksPluginService extends AbstractLifecycleComponent<WebHooksPl
     
     @Override
     protected void doStart() throws ElasticSearchException {
+        this.indicesLifecycle.addListener(
+            new WebHooksIndicesLifecycleListener(this.logger, this.settings)
+        );
     }
     
     @Override

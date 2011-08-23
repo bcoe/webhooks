@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="debian" name="org.elasticsearch.webhooks.test.WebHooksTests" tests="1" failures="0" timestamp="17 Aug 2011 00:13:31 GMT" time="0.167" errors="0">
-  <testcase name="testNothing" time="0.122" classname="org.elasticsearch.webhooks.test.WebHooksTests"/>
+<testsuite hostname="debian" name="org.elasticsearch.webhooks.test.WebHooksTests" tests="1" failures="0" timestamp="19 Aug 2011 15:06:56 GMT" time="0.213" errors="0">
+  <testcase name="testNothing" time="0.158" classname="org.elasticsearch.webhooks.test.WebHooksTests"/>
 </testsuite>

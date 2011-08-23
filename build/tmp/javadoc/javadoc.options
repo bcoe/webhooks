@@ -8,3 +8,4 @@
 '/mnt/hgfs/projects/elasticsearch/plugins/webhooks/src/main/java/org/elasticsearch/webhooks/WebHooksIndicesLifecycleListener.java'
 '/mnt/hgfs/projects/elasticsearch/plugins/webhooks/src/main/java/org/elasticsearch/webhooks/WebHooksPluginModule.java'
 '/mnt/hgfs/projects/elasticsearch/plugins/webhooks/src/main/java/org/elasticsearch/webhooks/WebHooksPluginService.java'
+'/mnt/hgfs/projects/elasticsearch/plugins/webhooks/src/main/java/org/elasticsearch/webhooks/WebHooksResponder.java'
